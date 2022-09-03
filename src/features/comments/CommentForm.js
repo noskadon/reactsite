@@ -82,7 +82,6 @@ const CommentForm = ({ campsiteId }) => {
 							</Button>{" "}
 						</Form>
 					</Formik>
-					>
 				</ModalBody>
 			</Modal>
 		</>

@@ -13,6 +13,7 @@ const AnimatedDisplayCard = ({ item }) => {
 	useEffect(() => {
 		setToggle(true);
 	}, []);
+
 	return (
 		<animated.div style={animatedStyle}>
 			<Card>
