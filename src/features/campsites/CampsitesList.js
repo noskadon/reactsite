@@ -6,6 +6,8 @@ import { useSelector } from "react-redux";
 const CampsitesList = () => {
 	const campsites = useSelector(selectAllCampsites);
 
+	console.log("campsites:", campsites);
+
 	return (
 		<Row className="ms-auto">
 			{campsites.map((campsite) => {
