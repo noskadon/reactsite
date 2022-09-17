@@ -4,6 +4,7 @@ import { selectCommentsByCampsiteId } from "./commentsSlice";
 import CommentForm from "./CommentForm";
 import { useSelector } from "react-redux";
 
+
 const CommentsList = ({ campsiteId }) => {
 	const comments = useSelector(selectCommentsByCampsiteId(campsiteId));
 
