@@ -18,7 +18,9 @@ function App() {
 	useEffect(() => {
 		dispatch(fetchCampsites());
 		dispatch(fetchPartners());
+		dispatch(fetchPromotions());
 	}, [dispatch]);
+
 	return (
 		<div className="App">
 			<Header />
